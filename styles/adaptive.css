@@ -1,0 +1,220 @@
+@media (max-device-width: 700px) {
+    header nav{
+        display: none;
+        flex-direction: column;
+    }
+    p{
+        font-size: 5vw;
+        line-height: normal;
+    }
+    br{
+        display: none;
+    }
+    .burger{
+        display: block;
+        width: 2vw;
+        height: 2vw;
+    }
+    .container img{
+        width: 25vw;
+        height: 7vw;
+    }
+    h2{
+        font-size: 6.7vw;
+        margin-bottom:5vw;
+    }
+    /*main*/
+    .main{
+        text-align: center;
+    }
+    .container1{
+        flex-direction:column-reverse;
+    }
+    .mainpic{
+        width:89vw;
+        height: max-content;
+      }
+    .container1 section{
+        align-items: center;
+    }
+    .container1 section h1{
+        font-size: 8vw;
+        line-height: normal;
+        margin-bottom: 2.6vw;
+        margin-top:2.6vw;
+    }
+    .container1 section p{
+        font-size: 5vw;
+        line-height: normal;
+    }
+    .buttonBlock a{
+        width: 42vw;
+        height: 10vw;
+        font-size: 3.74vw;
+    }
+    .buttonBlock a img{
+        width: 5vw;
+        height: 5vw;
+      }
+    /*searchBar*/
+    .container2{
+        flex-direction: column;
+        height: max-content;
+        padding:  5.2vw;
+        align-items: flex-start;
+        border-radius: 1.3vw;
+    }
+    .container2 h6{
+        font-size: 7vw;
+        line-height: normal;
+        margin-bottom: 7vw;
+    }
+    form{
+        width: fit-content;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .container2 input{
+        width:78.5vw;
+        height: 13.3vw;
+        margin-bottom: 5.6vw;
+        font-size: 4.6vw;
+    }
+    .container2 button{
+        width:78.5vw;
+        height: 13.3vw;
+        font-size: 4.6vw;
+    }
+    input::-webkit-input-placeholder{
+        font-size: 4.4vw;
+    }
+    /*howTereWorks*/
+    .container3{
+        flex-direction: column;
+        height: max-content;
+        width: 89vw;
+    }
+    .container3 section:nth-child(1){
+        display: none;
+    }
+    .forAdaptive{
+        display: block;
+    }
+    .howPoint{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+        width: 89vw;
+
+    }
+    .howPoint p{
+        font-size: 5vw !important;;
+        line-height: normal !important;
+        text-align: center !important;
+        margin-bottom: 8.3vw !important;
+    }
+    .container3 section h4{
+        font-size: 6.7vw !important;
+        line-height: normal !important;
+        margin-bottom:3.7vw;
+        margin-top: 1vw;
+    }
+    .container3 section:nth-child(odd) img{
+        width: 16vw;
+        height: 16vw;
+    }
+    .container3 section:nth-child(2) img{
+        width: 89vw;
+        margin: 0;
+    }
+    .container3 section:nth-child(4) img{
+        width: 16vw;
+        height: 16vw;
+    }
+    .sliderIndex{
+        display: none;
+    }
+    /*tereBenefits*/
+    .container4{
+        align-items: center;
+    }
+    .benefit{
+        flex-direction: column;
+        align-self: center;
+        width:89vw;
+        padding:17vw 7vw;
+        text-align: center;
+    }
+    .benefit:nth-child(3){
+        align-self: flex-start;
+        flex-direction: column;
+    }
+    .benefit p{
+        display: none;
+        font-size: 5vw;
+        line-height: normal;
+    }
+    .benefit h4{
+        font-size: 8vw;
+        line-height: normal;
+        text-align: left;
+        margin-bottom: 8.3vw;
+    }
+    .AdaptiveP{
+        display: block !important;
+    }
+    .benefit h4 span{
+        font-size: 18vw;
+        text-align: left;
+    }
+    .benefit:nth-child(2) img{
+        width:fit-content;
+        height: fit-content;
+        margin-bottom: 8.3vw;
+    }
+    .benefit:nth-child(3) img{
+        width:fit-content;
+        height: fit-content;
+        margin-bottom: 8.3vw;
+    }
+    .benefit:nth-child(4) img{
+        width:fit-content;
+        height: fit-content;
+        margin-bottom: 8.3vw;
+    }
+    /*footer*/
+    .containerFooter{
+        text-align: center;
+        flex-direction: column;
+    }
+    .containerFooter .contacts:nth-last-child(2){
+        display: none;
+    }
+    .containerFooter .buttonBlock{
+        flex-direction: column;
+    }
+    .containerFooter .buttonBlock a{
+        margin-bottom: 2.88vw ;
+    }
+    .containerFooter img{
+        width: 40vw;
+        height:auto;
+    }
+    hr{
+        display: none;
+    }
+    .containerFooter h6{
+        font-size: 5.5vw;
+        line-height: normal;
+    }
+    .containerFooter li{
+        font-size: 5vw;
+        line-height: normal;
+    }
+    footer p{
+        font-size: 5vw;
+        line-height: normal;
+        color: #8B8BA5;
+    }
+} 
